@@ -1,4 +1,4 @@
-const WheresMyNFT = artifacts.require('WheresMyNFTV2.sol');
+const WheresMyNFT = artifacts.require('WheresMyNFT.sol');
 
 module.exports = function(deployer){
     deployer.deploy(WheresMyNFT);
